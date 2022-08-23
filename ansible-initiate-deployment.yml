@@ -4,10 +4,10 @@
   hosts: localhost
   name: "initiate deployment with Ansible"
   tasks:
-    -
-      name: "perform a deployment with Ansible task(s)"
-      uri:
-        url: "replace this module with the module of your choice to perform the deployment"
+  #  -
+  #    name: "perform a deployment with Ansible task(s)"
+  #    uri:
+  #      url: "replace this module with the module of your choice to perform the deployment"
     -
       name: "push Dynatrace custom deployment event"
       uri:
